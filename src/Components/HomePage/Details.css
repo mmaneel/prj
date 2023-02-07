@@ -1,0 +1,102 @@
+.Announce-lst-1-details{
+     background-color:#fff;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+     
+    
+}
+.Annouce-pic-details{
+    margin: 15px;
+    border-radius: 15px;
+    width: 18rem;
+    height: 13rem;
+    overflow: hidden;     
+}
+.Annouce-pic-details img{
+    width: 22rem;  
+}
+.Annouce-details-2{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+ }
+
+.popular-name-details{
+    font-size: 30px;
+    color: #314862;
+}
+
+.popular-description-details{
+    color: rgb(171, 171, 171);
+    margin: 1% 0% 5% 0%;
+    font-size: 11px; 
+    width: max-content;
+} 
+.fav-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.like-details{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}
+.contact-msg{
+   margin-right: 15px;
+}
+.contact-msg-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}
+.contact-call-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}
+.popular-price-details{
+    font-size: 22px;
+    color: #0149f0; 
+    padding-right: 20px;  
+}
+.location{
+    margin: 15px;
+    border-radius: 15px;
+    width: 18rem;
+    height: 7rem;
+    overflow: hidden;  
+    cursor: pointer;   
+}
+.location img{
+    width: 18rem;
+}
+.photos-name{
+    font-size: 18px;
+
+}
+.photo-details{
+    display: grid;
+   margin: 15px 15px 15px 27px;
+    grid-template-columns: repeat(3,30px);
+    overflow: hidden;
+  
+    gap: 1rem 4rem;
+}
+.photo-details img{
+    width: 5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+
+}

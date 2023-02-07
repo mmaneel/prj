@@ -1,0 +1,80 @@
+.n-wrapper {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  width: 100%;
+ 
+  
+  
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+ 
+}
+/*.n-list > ul {
+  display: flex;
+  gap: 1rem;
+  margin-right: 4rem;
+  
+}
+.n-list li{
+ 
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 7px;
+}
+
+.n-list > ul :hover {
+  color:#024eff;
+  cursor: pointer;
+  background-color: #E5E9FA;
+
+ 
+}*/
+.LOGO-N{
+  margin-left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer; 
+}
+
+
+.n-button {
+  flex: 2;
+  width: 100px;
+  height: 40px;
+  background-color: #024eff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 4rem;
+  
+}
+
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+}

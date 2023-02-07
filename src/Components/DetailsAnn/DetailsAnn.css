@@ -1,0 +1,98 @@
+.det-An-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.INNFO{
+    margin-top: -60px;
+}
+.INNFO-h{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 2% 0% 2% 7%;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+}
+.INFO-det{
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/*.info-dv-pic{
+    width:500px ;
+    overflow: hidden;
+}*/
+.dv-pic-main{
+    width: 100%;
+    max-width: 500px;
+}
+.dv-pic-scd{
+    width: 100%;
+    max-width: 150px;
+}
+.ic-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.photo-lst{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 25px;
+    margin: 6% 0;
+    width: 100%;
+}
+.lb-info{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(232, 231, 231);
+    width: 100%;
+    height: 45px;
+    align-items: center;
+}
+.lb-info label{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 2%;
+}
+.lb-info p{
+    padding-left: 2%;
+}
+.lb-dsc{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    height: max-content;
+    width: 100%;
+}
+.Lb-p{
+    padding:2% ;
+}
+.montant{
+    font-size: large;
+    font-weight: 900;
+    color: #0149f0;
+}
+.lb-h{
+    color: red;
+    font-size: x-large;
+    width: 100%;
+    text-align: left;
+}
+.an-date{
+    /* margin-left: auto; */
+    padding-right: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+@media (max-width: 680px) {
+    .INNFO{
+        margin-top: 0px;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+.MyAnnounce{
+    display: flex;
+    flex-direction: row;
+}
+
+.poste-ann{
+    background-color: white;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    overflow: hidden;
+   
+}
+.post-pic{
+    width: 220px;
+    height: 140px;
+}
+.poste-ann-l1{
+    margin: 10px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.delete{
+    margin: 20px 0px;
+    margin-left:8rem ;
+}
+.delete-btn{
+    width: 80px;
+    height: 30px;
+    background-color: #e20909;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.ann-name{
+    padding-top: 8px;
+    font-size: 20px;
+    color: #314862;
+    
+}
+.ann-price{
+    font-size: 13px;
+    padding-top: 8px;
+    color: #0149f0;
+   
+}
+.ann-description{
+    color: rgb(171, 171, 171);
+    margin: 5% 0% 22% 0%;
+    font-size: 11px; 
+    width: max-content;
+}
+.ttl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

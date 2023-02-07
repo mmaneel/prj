@@ -1,0 +1,47 @@
+{
+    "devs":[
+{
+    "id":1,
+    "name":"house",
+    "city":"Alger",
+    "price":345000,
+    "time":"15 min" ,
+    "pic": "house",
+    "map":"map",
+    "bedrooms":"2",
+    "bethrooms":"4",
+    "space":"450",
+    "phone":"0678346954",
+    "fullName":"Jacob Jones"
+    },
+    
+{
+    "id":2,
+    "name":"house5",
+    "city":"Oran",
+    "price":"5000",
+    "time":"2 month" ,
+    "pic": "house5" ,
+    "map":"map1",
+    "bedrooms":"4",
+    "bethrooms":"3",
+    "space":"350",
+    "phone":"0576359821",
+    "fullName":"Courtney Henry"
+    },
+{
+    "id":3,
+    "name":"house2",
+    "city":"Skikda",
+    "price":"7600",
+    "time":"1 year" ,
+    "pic": "house2" ,
+    "map":"map2",
+    "bedrooms":"2",
+    "bethrooms":"6",
+    "space":"500",
+    "phone":"0765201648",
+    "fullName":"Jerome Bell"
+    }
+        ]
+    }

@@ -1,0 +1,85 @@
+.list-p{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.list-p :hover{
+    background-color: #E5E9FA;
+    cursor: pointer;
+   
+    
+}
+.l1-p{
+    width: 170px;
+    height: 50px; 
+    text-align: start;
+    margin-top: 20px;
+    border-radius: 5px;
+   
+  
+}
+
+.l1-p a{
+    color: black;
+     padding-right: 5%;
+     
+
+}
+
+.l1-icon-p{
+    margin-top: 8px;
+    width: 20px;
+    margin-right: 1rem;
+     
+}
+.profile-list{
+    background-color: white;
+    width: 230px;
+    height: 606px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    border: 20px;
+}
+.avatar-p{
+    border-radius: 100%;
+    width: 81px;
+    height: 81px;
+    overflow: hidden;
+   margin-top: 26%;
+}
+.avatar-p img{
+    width: 81px;
+    height: 81px;
+}
+.LOGO-p{
+    width: 30px;
+    height: 32px;
+    margin-top: 20px;
+    position: absolute;
+    left: 25px;
+}
+.Name-p{
+display:flex;
+flex-direction: row;
+margin-top: 10px;
+justify-content: space-between;
+}
+.arrow-p{
+    padding-left: 5px;
+    cursor: pointer;
+
+}
+.info-p{
+    display:flex;
+flex-direction:column;
+align-items: center;
+}
+.info-p span{
+    font-size: 10px;
+    margin-top: 8px;
+   
+}
+

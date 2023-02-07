@@ -1,0 +1,43 @@
+.Ad-left{
+   
+    width: 20%;
+  
+}
+.list{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+.list :hover{
+    background-color: #E5E9FA;
+    cursor: pointer;
+   
+    
+}
+.l1{
+    width: 190px;
+    height: 50px; 
+    text-align: start;
+    margin-top: 20px;
+    padding-right: 5%;
+    padding-left: 15px;
+    border-radius: 5px;
+   
+  
+}
+
+.l1 a{
+    color: black;
+     padding-right: 5%;
+     
+
+}
+
+.l1-icon{
+    margin-top: 8px;
+    width: 20px;
+    margin-right: 1rem;
+     
+}

@@ -1,0 +1,30 @@
+.slct_opt{
+    width: 120px;
+    border: 1px solid black;
+    height: 30px;
+}
+.slct_opt_d{
+    width: 120px;
+}
+.Filter-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Filter-dsply{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sb-btn{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    margin-left: 37rem;
+    margin-top: 10px;
+    background-color: #0149f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

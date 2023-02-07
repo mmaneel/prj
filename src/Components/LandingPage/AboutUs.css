@@ -1,0 +1,64 @@
+.land-ann{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+  
+    
+}
+.About-us{
+    margin: 1rem 0rem;
+}
+.land-ann-pic img{
+    width: 260px;
+    height: 180px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Annouce-details-land{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.land-popular-price{
+    padding-left: 50%;
+    font-size: 1rem;
+    color: blue;
+}
+.land-popular-name{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.land-popular-city{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.land-popular-time{
+    font-size: 14px;
+    opacity: 0.7;
+    margin-left: 5px;
+
+}
+.dv-land{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.land-popular-type{
+    font-size: 14px;
+    margin-left: 6px;
+    opacity: 0.5;
+
+}
+.wl-dv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}

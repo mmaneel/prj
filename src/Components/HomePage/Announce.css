@@ -1,0 +1,144 @@
+.Announce-list-1{
+    margin: 10px 0px ;
+    width: 660px;
+    background-color:#fff;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 860px) {
+  .Announce-list-1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Announce-list-1:hover{
+    border: #314862 solid 2px;
+    cursor: pointer;
+}
+
+.Annouce-pic{
+    margin: 17px 17px 0px 17px;
+    border-radius: 15px;
+    width: 10rem;
+    height: 7rem;
+    overflow: hidden;   
+}
+
+@media (max-width: 860px) {
+  .Annouce-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Annouce-pic img{
+    width: 11rem;  
+}
+
+.Annouce-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.popular-name{
+    padding-top: 8px;
+    font-size: 20px;
+    color: #314862;
+    
+}
+
+.popular-price{
+    font-size: 18px;
+    color: #0149f0;
+   
+}
+
+.popular-description{
+    color: rgb(171, 171, 171);
+    margin: 5% 0% 22% 0%;
+    font-size: 11px; 
+    width: max-content;
+} 
+
+.fav{
+    margin: 1rem 0rem 1rem 16rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 860px) {
+  .fav {
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+
+.dt-btn{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.like{
+    margin-top: 16px;
+    padding-right:9px ;  
+}
+
+.time{
+    color: rgb(171, 171, 171);
+    font-size: 11px;  
+    width: max-content;
+    padding-right:9px ;
+}
+@media only screen and (max-width: 560px) {
+    .Announce-list-1 {
+      width: 90%;
+      height: auto;
+      margin: 10px 5%;
+    }
+    .Annouce-pic {
+      width: 40%;
+      height: auto;
+      margin: 17px 5% 0px 5%;
+    }
+    .Annouce-pic img {
+      width: 100%;
+    }
+    .Annouce-details {
+      margin-top: 17px;
+      margin-bottom: 17px;
+      width: 55%;
+    }
+    .popular-name {
+      font-size: 16px;
+    }
+    .popular-price {
+      font-size: 14px;
+    }
+    .popular-description {
+      font-size: 10px;
+    }
+    .fav {
+      margin: 1rem 0rem 1rem 5%;
+    }
+    .dt-btn {
+      height: 25px;
+      font-size: 12px;
+    }
+    .like {
+      margin-top: 10px;
+    }
+    .time {
+      font-size: 10px;
+    }
+  }
+  

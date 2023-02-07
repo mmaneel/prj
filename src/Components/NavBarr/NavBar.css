@@ -1,0 +1,40 @@
+.nav-bar{
+    
+    display: flex;
+    flex-direction: row;
+    margin:2% 2% 4% 2%;
+    justify-content: space-between;
+     
+}
+.LOGO{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;   
+}
+.avatar{
+   
+    border-radius: 100%;
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+}
+.avatar img{
+    width: 59px;
+    height: 59px;
+}
+.ntotification{
+    margin-top: 16px;
+    
+    position: relative;
+    left: 240px;
+    
+
+}
+.like-navbar{
+    margin-top: 16px;
+    position: relative;
+    left: 120px;
+}
+.rech{
+    margin-left: 20px;
+}

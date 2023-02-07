@@ -1,0 +1,40 @@
+.about-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5% 4% 3% 7%;
+    grid-gap: 20px;
+}
+
+@media (max-width: 1400px) {
+    .about-display {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .about-display {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .about-display {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.LandingPage {
+    margin-bottom: 10%;
+}
+
+.btn-more {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 35px;
+    background-color: #024eff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
